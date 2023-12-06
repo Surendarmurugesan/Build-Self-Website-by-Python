@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("./images/photo.png", width=500)
+    st.image("./images/photo.png", width=600)
 
 with col2:
     st.title("Surendar Murugesan")
@@ -21,7 +21,7 @@ with col2:
 performed_skil = """ Below you can find some of the apps I have built in Python. Feel free to contact me !!"""
 st.write(performed_skil)
 
-col3, empty_col, col4 = st.columns([2, 0.1, 2])
+col3, empty_col, col4 = st.columns([1.5, 0.1, 1.5])
 
 df = pandas.read_csv("data.csv", sep= ";")
 

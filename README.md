@@ -9,5 +9,5 @@
 
 ## 2. Execute command:
 Below commands for python script execution.
-### cd <git-repo>
+### cd git_cloned_repo
 ### streamlit run Home.py

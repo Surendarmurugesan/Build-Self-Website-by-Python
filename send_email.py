@@ -7,7 +7,7 @@ def send_email(message):
     username = "<Email-address>" # From address
     password = "<APP-password>" #Search in google how to get app password for smtp mail
 
-    receiver = "<Reveicer-email-address>" # Receive address
+    receiver = "<Receiver-email-address>" # Receive address
 
     context = ssl.create_default_context()
 

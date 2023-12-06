@@ -9,5 +9,5 @@
 
 ## 2. Execute command:
 Below commands for python script execution.
-### cd <Repo-root-folder>
+### cd <git-repo>
 ### streamlit run Home.py
